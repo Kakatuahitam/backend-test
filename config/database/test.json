@@ -1,0 +1,7 @@
+{
+  "user": "developer",
+  "password": "developerpass",
+  "host": "localhost",
+  "port": 5432,
+  "database": "ibj_cariilmu_test"
+}
