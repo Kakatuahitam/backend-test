@@ -1,6 +1,6 @@
 const RegisterAdmin = require('../RegisterAdmin');
 
-describe('a RegisterAdmin entities', () => {
+describe('a RegisterAdmin entity', () => {
   it('should throw error when payload did contain needed property', () => {
     const payload = {
       email: 'name@email.com',

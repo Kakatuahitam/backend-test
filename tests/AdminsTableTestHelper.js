@@ -2,7 +2,7 @@
 const pool = require('../src/Infrastructure/database/postgresql/pool');
 
 const AdminTableTestHelper = {
-  async addAdmin({id = '0001', name = 'yuda', email = 'saya@yuda.com', password = 'secretpass',}) {
+  async addAdmin({id = '9999', name = 'yuda', email = 'saya@yuda.com', password = 'secretpass',}) {
     const query = {
       text: 'INSERT INTO admins VALUES($1, $2, $3, $4)',
       values: [id, name, email, password],
